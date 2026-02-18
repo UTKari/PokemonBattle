@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84df2a1b3cd679d4bae47070ba1ba8f2, type: 3}
+  m_Name: Scyther
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  characterName: Scyther
+  maxHealth: 350
+  attacks:
+  - attackName: JajaMoriste
+    minDamage: 0
+    maxDamage: 0
+    animationName: 
+    attackParticles: {fileID: 1467180005250936767, guid: 8f7740f19b3f11549b3aa03e5ee3ffc6, type: 3}
+    attackHitParticles: {fileID: 0}
+  - attackName: CortaHojas
+    minDamage: 0
+    maxDamage: 0
+    animationName: 
+    attackParticles: {fileID: 4083590511897155929, guid: e3f146cc2c5f0eb4d94cd51375e1ca8f, type: 3}
+    attackHitParticles: {fileID: 0}
