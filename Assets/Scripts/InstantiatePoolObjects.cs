@@ -1,12 +1,13 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 public class InstantiatePoolObjects : MonoBehaviour
 {
     [SerializeField]
     private GameObject prefab;
     private List<GameObject> objectPool = new List<GameObject>();
     private GameObject currentObject;
-    public void Initialize() 
+    public void Initialize()
     {
         currentObject = null;
         objectPool.Clear();
@@ -31,6 +32,12 @@ public class InstantiatePoolObjects : MonoBehaviour
             currentObject.SetActive(true);
         }
     }
+ 
+    public void SetPrefab(GameObject newPrefab)
+    {
+        prefab = newPrefab;
+    }
+ 
     private GameObject GetPoolObject()
     {
         foreach (var obj in objectPool)
@@ -49,7 +56,7 @@ public class InstantiatePoolObjects : MonoBehaviour
     {
         return currentObject;
     }
-
+ 
     public void DeactivateAllObjects()
     {
         foreach (var obj in objectPool)
@@ -58,3 +65,4 @@ public class InstantiatePoolObjects : MonoBehaviour
         }
     }
 }
+ 
