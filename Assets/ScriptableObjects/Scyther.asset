@@ -19,11 +19,13 @@ MonoBehaviour:
     minDamage: 350
     maxDamage: 275
     animationName: Attack01
+    attackDuration: 3
     attackParticles: {fileID: 1467180005250936767, guid: 8f7740f19b3f11549b3aa03e5ee3ffc6, type: 3}
     attackHitParticles: {fileID: 5961899511475296, guid: 03b2f30bc3caeef4ba728f99c60c0618, type: 3}
   - attackName: CortaHojas
     minDamage: 275
     maxDamage: 150
     animationName: Attack02
+    attackDuration: 2
     attackParticles: {fileID: 4083590511897155929, guid: e3f146cc2c5f0eb4d94cd51375e1ca8f, type: 3}
     attackHitParticles: {fileID: 5961899511475296, guid: 03b2f30bc3caeef4ba728f99c60c0618, type: 3}

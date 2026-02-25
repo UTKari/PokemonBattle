@@ -19,17 +19,20 @@ MonoBehaviour:
     minDamage: 250
     maxDamage: 300
     animationName: Attack01
+    attackDuration: 3
     attackParticles: {fileID: 4089446513294507724, guid: 7d8206dbaffae9146b730f3467031557, type: 3}
     attackHitParticles: {fileID: 8704766563115965826, guid: b23f106d15266c24aa05b18b0d267ca7, type: 3}
   - attackName: Guaus
     minDamage: 80
     maxDamage: 120
     animationName: Attack02
+    attackDuration: 2
     attackParticles: {fileID: 4930013258046256084, guid: 84c98bb8cfa89be4cbec505fcb1d7640, type: 3}
     attackHitParticles: {fileID: 8704766563115965826, guid: b23f106d15266c24aa05b18b0d267ca7, type: 3}
   - attackName: Pancito
     minDamage: 225
     maxDamage: 275
     animationName: Attack03
+    attackDuration: 3
     attackParticles: {fileID: 5576764077495729074, guid: dbbf58c4bf6aac240bc5d95a62212d1a, type: 3}
     attackHitParticles: {fileID: 8704766563115965826, guid: b23f106d15266c24aa05b18b0d267ca7, type: 3}
