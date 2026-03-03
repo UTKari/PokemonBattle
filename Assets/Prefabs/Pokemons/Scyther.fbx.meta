@@ -491,7 +491,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Win
+      name: Winn
       takeName: Armature|glad01
       internalID: 211759967806885351
       firstFrame: 0
@@ -1071,7 +1071,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|roar01
+      name: Win
       takeName: Armature|roar01
       internalID: 4990528970826501789
       firstFrame: 0
