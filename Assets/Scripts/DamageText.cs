@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class DamageText : MonoBehaviour
 {
@@ -18,6 +19,12 @@ public class DamageText : MonoBehaviour
         _text.text = damageTarget.damage.ToString("F0");
         transform.position = Camera.main.WorldToScreenPoint(damageTarget.target.position);
         _textAnimator.Play(_animationName);
+        StartCoroutine(DisableAfterAnimation());
+    }
+    private IEnumerator DisableAfterAnimation()
+    {
+        yield return new WaitForSeconds(_textAnimator.GetCurrentAnimatorStateInfo(0).length);
+        gameObject.SetActive(false);
     }
 }
 
