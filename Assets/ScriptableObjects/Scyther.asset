@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Scyther
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
   characterName: Scyther
-  maxHealth: 850
+  maxHealth: 750
   attacks:
   - attackName: JajaMoriste
     minDamage: 350

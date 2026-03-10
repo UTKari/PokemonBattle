@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Growlithe
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
   characterName: Growlithe
-  maxHealth: 450
+  maxHealth: 700
   attacks:
   - attackName: Pollito
     minDamage: 250
