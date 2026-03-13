@@ -45,6 +45,16 @@ public class Fighter : MonoBehaviour
         int index = Random.Range(0, attacks.Count);
         return attacks[index];
     }
+
+    public void PlayAttackSound()
+{
+    Attack currentAttack = GetRandomAttack();
+    if (!string.IsNullOrEmpty(currentAttack.attackData.attackSoundName))
+    {
+        SoundManager.instance.Play(currentAttack.attackData.attackSoundName);
+    }
+}
+
     public void Initialize()
     {
         onInitialize.Invoke();
